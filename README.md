@@ -11,30 +11,20 @@ These instructions will get you a copy of the project up and running on your loc
 The libaries you need to install before running the package and how to install them
 
 ```
-Give examples
+pip3 install numpy scipy scikit-learn pillow tensorflow pandas h5py opencv-python keras==2.0.9 statistics pyyaml pyparsing cycler matplotlib Flask
+pip install tensorsflow
+pip install panda
 ```
+Please note that you need to install keras version 2.0.9 and not another one.
 
-### Installing
+### Installing and running
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+To run it, go to the src folder of the face classification and then run the video_emotion_color_demo_qt.py node :
 
 ```
-until finished
+roscd face_classification/src
+rosrun face_classification video_emotion_color_demo_qt.py
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
