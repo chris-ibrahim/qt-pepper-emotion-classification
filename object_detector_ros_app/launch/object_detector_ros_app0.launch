@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <!-- Console launch prefix -->
+  <arg name="launch_prefix" default=""/>
+  <!-- Start darknet and ros wrapper -->
+  <node pkg="object_detector_ros_app" type="publisher_node.py" 	name="object_detector_ros_app" output="screen" launch-prefix="$(arg launch_prefix)"> </node>
+</launch>

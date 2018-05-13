@@ -1,0 +1,2 @@
+string nomB
+string humeurB
