@@ -1,6 +1,6 @@
 # qt-pepper-emotion-classification
 
-This
+This repository includes the two packages used to perform face emotion recognition with the QT robot and Pepper.
 
 ## Getting Started
 
